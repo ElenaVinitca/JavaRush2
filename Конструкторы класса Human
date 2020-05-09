@@ -1,0 +1,30 @@
+package com.javarush.task.task10.task1013;                                                                                                    
+                                                                                                    
+/*                                                                                                     
+Конструкторы класса Human                                                                                                    
+*/                                                                                                    
+                                                                                                    
+public class Solution {                                                                                                    
+    public static void main(String[] args) {                                                                                                    
+    }                                                                                                    
+                                                                                                    
+    public static class Human {                                                                                                    
+       private String name;
+       private String prof;                                           
+       private int age; 
+       private int age2;                                          
+       private boolean sex; 
+       private boolean sex2; 
+
+        public Human(String name, String prof, int age, int age2, boolean sex){}
+        public Human(String name, String prof){}
+        public Human(String name,int age, boolean sex){}
+        public Human(String name, boolean sex2){}
+        public Human(int age){}
+        public Human(String name, boolean sex2, int age2){}
+        public Human(String name,int age, int age2){}
+        public Human(String name, String prof, boolean sex2){}
+        public Human(String name,int age, String prof, int age2){}
+        public Human(String name){}                                                                           
+    }                                                                                                    
+}              
